@@ -1,6 +1,6 @@
-import { combineReducers } from 'redux';
-import search from './search';
-import shows from './shows';
+import { combineReducers } from 'redux'
+import search from './search'
+import shows from './shows'
 
 // Вам необходимо реализовать search и shows редьюсеры.
 // Создайте соответствующие файлы.
@@ -8,4 +8,4 @@ import shows from './shows';
 export default combineReducers({
   search,
   shows
-});
+})

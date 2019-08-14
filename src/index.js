@@ -1,12 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import AppRouter from 'components/AppRouter';
-import getStore from './store';
-import { Provider } from 'react-redux';
-import { BrowserRouter } from 'react-router-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './index.css'
+import AppRouter from 'components/AppRouter'
+import getStore from './store'
+import { Provider } from 'react-redux'
+import { BrowserRouter } from 'react-router-dom'
 
-const store = getStore();
+const store = getStore()
 
 ReactDOM.render(
   <BrowserRouter>
@@ -15,4 +15,4 @@ ReactDOM.render(
     </Provider>
   </BrowserRouter>,
   document.getElementById('root')
-);
+)
