@@ -22,6 +22,15 @@ code {
 }
 
 a {
+  display: inline-block;
   color: #4CD0FF;
   text-decoration-color: rgba(0, 210, 233, 0.5);
+}
+
+img {
+  max-width: 100%;
+}
+
+.t-link {
+  margin-bottom: 12px;
 }
